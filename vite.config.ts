@@ -165,7 +165,7 @@ export default defineConfig({
   root: path.resolve(PROJECT_ROOT, "client"),
   publicDir: path.resolve(PROJECT_ROOT, "client", "public"),
   build: {
-    outDir: path.resolve(PROJECT_ROOT, "dist/public"),
+    outDir: path.resolve(PROJECT_ROOT, "dist"), // ✅ التغيير: خليها dist بس مش dist/public
     emptyOutDir: true,
   },
   server: {
