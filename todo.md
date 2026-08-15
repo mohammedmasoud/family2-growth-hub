@@ -1,0 +1,21 @@
+# Project TODO
+
+- [x] Create bilingual Arabic/English language system with a persistent user-accessible language toggle and automatic RTL/LTR layout direction.
+- [x] Establish family roles with an administrator parent experience and separate child profiles named exactly Sandy and Celia.
+- [x] Create database schema and procedures for child profiles, tasks, reviews, academic subjects, grades, and earned badges.
+- [x] Implement parent dashboard for creating and assigning tasks to Sandy or Celia with title, category, points, deadline, and status.
+- [x] Restrict task categories exactly to academic (دراسي), household (منزلي), personal hygiene (نظافة شخصية), and organization (تنظيم).
+- [x] Build individual child dashboard views that only show the selected child’s daily tasks and support marking tasks completed.
+- [x] Implement point balances, weekly progress indicators, and visual progress bars for each child.
+- [x] Implement parent review flow with a required 1-to-5 star rating and optional encouraging written comment for each completed task.
+- [x] Implement academic subject tracking for Sandy and Celia, including subject names, assessment labels, recorded grades, and results.
+- [x] Automatically award and display at least the First 10 Tasks Completed and Perfect Week motivational badges.
+- [x] Create a vibrant mesh-gradient visual system using hot pink, violet, soft orange, and deep blue, with high-contrast white typography and responsive layouts.
+- [x] Add a comprehensive Vitest suite for task state, score calculation, review limits, badge eligibility, and translations.
+- [ ] Verify the authenticated parent and child workflows and responsive dashboard layouts after administrator sign-in.
+- [x] Verify database migrations, TypeScript, unit tests, and responsive welcome-screen presentation before delivery.
+- [x] Correct and re-verify the welcome-screen layout at a 375px mobile viewport.
+- [x] Run final static checks and tests for this release.
+- [ ] Save a release checkpoint for the current application state.
+- [ ] Deliver the app with concise first-use setup instructions for the parent account and child PINs.
+- [ ] Assess Lovable compatibility and determine the safe migration path for the current full-stack application.
